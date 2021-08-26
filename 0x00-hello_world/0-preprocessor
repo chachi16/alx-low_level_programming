@@ -1,2 +1,2 @@
 #!/bin/bash
-cat c < gcc $CFILE
+gcc -E $CFILE > cat c
