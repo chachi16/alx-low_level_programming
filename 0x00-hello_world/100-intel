@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -E $CFILE | cat > main.s
+gcc -S -masm=intel $CFILE | cat > main.s
