@@ -1,4 +1,4 @@
-#include <stido.h>
+#include <stdio.h>
 /**
  *main - Prints a string
  *Return: Nothing
