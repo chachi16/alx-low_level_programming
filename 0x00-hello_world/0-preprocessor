@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFILE > cat c
+gcc -E $CFILE > echo c
