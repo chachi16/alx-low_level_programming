@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c -E $CFILE | cat > `$CFILE tr ".c" ".o"`  
+gcc -c $CFILE   
