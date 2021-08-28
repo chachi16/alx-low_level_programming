@@ -6,16 +6,17 @@
 int main(void)
 {
 char c = 'a';
-char C = 'A';
+char d = 'A';
 char s = '\n';
 int n = 0;
 
 while (n < 26)
 {
 putchar(c);
-putchar(C);
+putchar(d);
 c++;
-C++;
+d++;
+n++;
 }
 putchar(s);
 return (0);
