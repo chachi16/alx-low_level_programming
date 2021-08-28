@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-char b = 0x0
-int i = 0
+char b = 0x0;
+int i = 0;
   
 while (i <= 15)
 {
 putchar('%x', b);
 b++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
