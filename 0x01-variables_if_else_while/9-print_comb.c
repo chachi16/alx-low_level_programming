@@ -15,7 +15,7 @@ while (j<9)
 {
 putchar(',');
 putchar(' ');
-j++
+j++;
 }
 i++;
 }
