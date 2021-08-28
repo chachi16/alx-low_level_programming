@@ -14,7 +14,7 @@ if (c == 'e' || c == 'q')
 {
 c++;
 continue;
-} 
+}
 putchar(c);
 c++;
 }
