@@ -10,10 +10,13 @@ char s = '\n';
 
 while (c <= 'z')
 {
-c++;
 if (c == 'e' || c == 'q')
+{
+c++;
 continue;
+} 
 putchar(c);
+c++;
 }
 putchar(s);
 return (0);
