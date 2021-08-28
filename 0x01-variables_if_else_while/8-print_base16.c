@@ -10,7 +10,7 @@ int i = 0;
   
 while (i <= 15)
 {
-putchar('%x', b);
+putchar(b);
 b++;
 }
 putchar('\n');
