@@ -5,14 +5,18 @@
  */
 int main(void)
 {
-char b = 0x0;
-int i = 0;
+int b = 0;
+char i = a;
 
-while (i <= 15)
+while (b <= 9)
 {
-putchar(b);
+putchar(b + '0');
 b++;
 i++;
+}
+while (i <= f)
+{
+putchar(i);
 }
 putchar('\n');
 return (0);
