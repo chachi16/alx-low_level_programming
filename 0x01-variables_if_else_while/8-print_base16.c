@@ -12,11 +12,11 @@ while (b <= 9)
 {
 putchar(b + '0');
 b++;
-i++;
 }
 while (i <= 'f')
 {
 putchar(i);
+i++;
 }
 putchar('\n');
 return (0);
