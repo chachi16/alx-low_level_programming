@@ -6,7 +6,7 @@
 int main(void)
 {
 int b = 0;
-char i = a;
+char i = 'a';
 
 while (b <= 9)
 {
@@ -14,7 +14,7 @@ putchar(b + '0');
 b++;
 i++;
 }
-while (i <= f)
+while (i <= 'f')
 {
 putchar(i);
 }
