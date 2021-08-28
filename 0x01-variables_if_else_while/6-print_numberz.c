@@ -5,8 +5,9 @@
  */
 int main(void)
 {
-int  n = 0 ;
-int s = \n
+int  n = 0;
+int s = "\n";
+
 while (n < 10)
 {
 putchar(n + '0');
