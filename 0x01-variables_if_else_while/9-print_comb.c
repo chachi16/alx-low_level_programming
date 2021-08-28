@@ -12,13 +12,13 @@ while (i < 10)
 {
 while (j < 10)
 {
-putchar(ij + '0');
+putchar(i + '0');
+putchar(j + '0');
 putchar(',');
 putchar(' ');
 j++;
 }
 i++;
 }
-putchar('\n');
 return (0);
 }
