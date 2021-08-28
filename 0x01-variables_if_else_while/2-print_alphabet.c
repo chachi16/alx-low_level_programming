@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  *main - void function
- *Return nothing
+ *Return: nothing
  */
-int main (void)
+int main(void)
 {
 char c = 'a';
 char s = '\n';
@@ -11,8 +11,8 @@ char s = '\n';
 while (c <= 'z')
 {
 putchar(c);
-putchar(s);
 c++;
 }
+putchar(s);
 return (0);
 }
