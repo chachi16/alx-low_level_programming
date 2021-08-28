@@ -7,11 +7,12 @@ int main(void)
 {
 char b = 0x0;
 int i = 0;
-  
+
 while (i <= 15)
 {
 putchar(b);
 b++;
+i++;
 }
 putchar('\n');
 return (0);
