@@ -13,8 +13,13 @@ int n = 0;
 while (n < 26)
 {
 putchar(c);
-putchar(d);
 c++;
+n++;
+}
+n = 0;
+while (n < 26)
+{
+putchar(d);
 d++;
 n++;
 }
