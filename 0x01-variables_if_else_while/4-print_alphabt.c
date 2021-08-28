@@ -11,10 +11,10 @@ char s = '\n';
 while (c <= 'z')
 {
 putchar(c);
-if (c == e && c == q)
+if (c == 'e' && c == 'q')
 continue;
 c++;
 }
-putchar(s)
+putchar(s);
 return (0);
 }
