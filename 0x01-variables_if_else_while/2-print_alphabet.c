@@ -5,12 +5,13 @@
  */
 int main (void)
 {
-int n = 0;
-int c = 'a';
+char c = 'a';
+char s = '\n';
 
-while (n <= 26)
+while (c <= 'z')
 {
 putchar(c);
+putchar(s);
 c++;
 }
 return (0);
