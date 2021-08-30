@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main :print number
+ *main - pritns combination of thre numbers
  *Return: nothing
  */
 int main(void)
