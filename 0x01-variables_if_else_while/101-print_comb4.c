@@ -11,11 +11,11 @@ int k;
 
 for (i = 0; i < 8; i++)
 {
-for (j = 0; j < 8; j++)
+for (j = 0; j < 9; j++)
 {
-for (k = 0; k < 8; k++)
+for (k = 0; k < 10; k++)
 {
-if ( k - i -j <=1)
+if (k - j <= 0 || j - i <= 0)
 {
 continue;
 }
@@ -28,6 +28,10 @@ break;
 }
 putchar(',');
 putchar(' ');
+}
+if (k - i <= 0 || j - i <= 0)
+{
+continue;
 }
 }
 }
