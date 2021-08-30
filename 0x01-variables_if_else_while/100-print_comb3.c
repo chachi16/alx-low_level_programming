@@ -5,16 +5,15 @@
  */
 int main(void)
 {
-int i = 0;
-int j = 0;
+int i;
+int j;
 
-while (i < 9)
+for (i = 0; i < 9; i++)
 {
-while (j < 10)
+for (j = 0; j < 10; j++)
 {
-if (i == j || j-i < 0)
+if (j-i <= 0)
 {
-j++;
 continue;
 }
 putchar(i + '0');
@@ -25,9 +24,7 @@ break;
 }
 putchar(',');
 putchar(' ');
-j++;
 }
-i++;
 }
 return (0);
 }
