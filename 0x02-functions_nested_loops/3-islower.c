@@ -7,7 +7,7 @@ int _islower(int c)
 {
 char d;
 
-d = c + '0'
+d = c + '0';
 if (d >= 'a' && d <= 'z')
 {
 return (1);
