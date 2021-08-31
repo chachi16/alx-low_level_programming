@@ -5,10 +5,8 @@
  */
 int _islower(int c)
 {
-char d;
 
-d = c + '0';
-if (d >= 'a' && d <= 'z')
+if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
