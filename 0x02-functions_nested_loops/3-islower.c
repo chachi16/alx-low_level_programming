@@ -5,13 +5,16 @@
  */
 int _islower(int c)
 {
-if (c >= 'A' && c <= 'Z')
+char d;
+
+d = c + '0'
+if (d >= 'a' && d <= 'z')
 {
-return (0);
+return (1);
 }
 else
 {
-return (1);
+return (0);
 }
 }
 	      
