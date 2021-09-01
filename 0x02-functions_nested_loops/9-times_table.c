@@ -13,9 +13,9 @@ for (j = 0; j < 10; j++)
 {
 n = i * j;
 if (n < 10)
-   {
+{
 _putchar('0' + n);
-   }
+}
 else
 {
 ld = n % 10;
