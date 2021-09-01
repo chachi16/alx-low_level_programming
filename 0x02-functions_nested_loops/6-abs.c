@@ -6,6 +6,13 @@
  */
 int _abs(int n)
 {
-
-  return ((n < 0) ? (-n): (n));
+  if (n <= 0)
+    {
+      _putchar(-n);
+    }
+  else
+    {
+    _putchar(n);
+    }
+return (0)// ((n < 0) ? (-n): (n));
 }
