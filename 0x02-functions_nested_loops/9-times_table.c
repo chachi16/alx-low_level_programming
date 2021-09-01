@@ -28,7 +28,7 @@ if (j == 9)
 break;
 }
 _putchar(',');
-if (i < 5 && j < 2)
+ if (i < 2 && j < 2)
 {
 _putchar(' ');
 }
