@@ -10,9 +10,12 @@ int ld;
 
 if (n < 0)
 {
-n = -n;
+ld = n % 10 * -1;
 }
-ld = n % 10;
+else
+{
+ld = n % 10
+}
 _putchar('0' + ld);
 return (ld);
 }
