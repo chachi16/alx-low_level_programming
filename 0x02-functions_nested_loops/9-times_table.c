@@ -28,7 +28,10 @@ if (j == 9)
 break;
 }
 _putchar(',');
+if (i < 6 || j < 6)
+{
 _putchar(' ');
+}
 _putchar(' ');
 }
 _putchar('\n');
