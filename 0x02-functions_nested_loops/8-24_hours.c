@@ -14,6 +14,6 @@ for (j = 00 ; j < 60 ; j++)
 _putchar('0' + i);
 _putchar(':');
 _putchar('0' + j);
--putchar('\n');
+_putchar('\n');
 }
 }
