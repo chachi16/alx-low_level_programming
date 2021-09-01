@@ -14,6 +14,10 @@ for (j = 0; j < 10; j++)
 n = i * j;
 if (n < 10)
 {
+if (j != 0)
+{
+_putchar(' ');
+}
 _putchar('0' + n);
 }
 else
@@ -28,9 +32,6 @@ if (j == 9)
 break;
 }
 _putchar(',');
-if ((i < 2 || j < 1) || (i == 2 && j < 4) || (i = 3 && j < 3) || (i == 4 && j < 2))
-{
-_putchar(' ');
 }
 _putchar(' ');
 }
