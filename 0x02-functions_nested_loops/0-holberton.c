@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-char c[] = "Holberton";
+char c[] = "_putchar";
 int n = 0;
 
-while (n <= 8)
+while (n <= 7)
 {
 _putchar(c[n]);
 n++;
