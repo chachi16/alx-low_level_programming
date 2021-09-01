@@ -23,11 +23,11 @@ _putchar('0' + l);
 _putchar('\n');
 }
 }
- if (i == 2 && j == 3)
+if (i == 2 && j == 3)
 {
 break;
 }
 }
 }
 }
-}
+
