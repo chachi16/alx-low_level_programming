@@ -13,6 +13,8 @@ if (n <= 0)
 {
 _putchar('\n');
 }
+else
+{
 while (i <= n)
 {
 if (i == 1)
@@ -32,5 +34,6 @@ _putchar('\\');
 _putchar('\n');
 }
 i++;
+}
 }
 }
