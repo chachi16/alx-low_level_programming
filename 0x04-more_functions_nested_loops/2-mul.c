@@ -4,7 +4,7 @@
  *@a: first operand
  *@b: second operand
  *
- *return:result of multiplication
+ *Return:result of multiplication
  */
 int mul(int a, int b)
 {
