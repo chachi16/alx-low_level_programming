@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *fizz_buzz - prints numbers and fizz buzz
- *Return: nothing
+ *main - prints numbers and fizz buzz
+ *Return: always 0
  */
 int main(void)
 {
@@ -28,8 +28,12 @@ else
 {
 printf("%d", n);
 }
+if (n == 100)
+{
+break;
+}
 printf(" ");
 }
- printf("\n");
+printf("\n");
 return (0);
 }
