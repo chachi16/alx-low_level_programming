@@ -2,7 +2,8 @@
 /**
  *_isupper - checks upper case and lower case letters
  *@c:character to be checked
- *return: 1 and 0
+ *
+ *Return: 1 and 0
  */
 int _isupper(int c)
 {
