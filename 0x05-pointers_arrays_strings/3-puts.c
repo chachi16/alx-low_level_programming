@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_puts - prints a string
- *@str: string passed
+ *@s: string passed
  *
  *Return: nothing
  */
