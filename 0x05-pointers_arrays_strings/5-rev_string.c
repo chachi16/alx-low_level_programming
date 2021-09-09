@@ -18,12 +18,7 @@ i++;
 i = i - 1;
 while (i >= 0)
 {
-while (s[j] != '\0')
-{
-
-s[j] = s[i];
-j++;
-}
+*s = s[i];
 i--;
 }
 _putchar('\n');
