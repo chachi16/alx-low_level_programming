@@ -1,6 +1,6 @@
 #include "main.h"
-  /**
- *_strcpy - copie the string
+ /**
+ **_strcpy - copy the string
  * @dest: array that returns
  * @src: the pointer that receive the string
  *
