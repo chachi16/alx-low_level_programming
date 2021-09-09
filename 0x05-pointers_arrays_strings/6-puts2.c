@@ -7,8 +7,10 @@
  */
 void puts2(char *s)
 {
-int i, j  = 0;
+int i, j;
 
+i  = 0;
+j = 0;
 while (s[i] != '\0')
 {
 i++;
