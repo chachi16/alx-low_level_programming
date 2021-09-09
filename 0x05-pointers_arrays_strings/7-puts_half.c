@@ -14,7 +14,7 @@ while (s[i] != '\0')
 {
 i++;
 }
-j = (i / 2) + 1;
+j = (i / 2);
 while (s[j] != '\0')
 {
 _putchar(s[j]);
