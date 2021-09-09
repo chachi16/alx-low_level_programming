@@ -18,6 +18,7 @@ j = i / 2;
 while (s[j] != '\0')
 {
 _putchar(s[j]);
+j++;
 }
 _putchar('\n');
 }
