@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /**
  * print_diagsums - print the sum of a diagonals
  * @a: the square matrix
