@@ -11,9 +11,9 @@ char *_strdup(char *str)
 {
   char *sttr;
   int i;
-  if (str == '\0')
+  if (str == NULL)
     {
-      return ('\0');
+      return (NULL);
     }
   else
     {
