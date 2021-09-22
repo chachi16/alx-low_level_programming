@@ -1,0 +1,80 @@
+#include "main.h"
+#include <stdlib.h>
+/**
+ *_strlen - counts the length of a string
+ *@s: string parameter
+ *
+ *Return: length of a string
+ */
+int _strlen(char *s)
+{
+  int i = 0;
+
+  while (s[i] != '\0')
+    {
+      i++;}
+  return (i);
+}
+/**
+ *_strcat - concatenates two strings
+ *@dest: destination string parameter
+ *@src: source string parameter
+ *
+ *Return: string
+ */
+char *_strcat(char *dest, char *src)
+{
+  int i = 0;
+
+  while (dest[i] != '\0')
+    {
+      i++;
+    }
+  int j = 0;
+
+  while (src[j] != '\0')
+    {
+      dest[i] = src[j];
+      i++;
+      j++;
+    }
+  return (dest);
+}
+/**
+ *str_concat - concatenates two strings
+ *@s1: string parameter
+ *@s2: string parameter
+ *
+ *Return: pointer to a string
+ */
+char *str_concat(char *s1, char *s2)
+{
+  char *new_string;
+  int length;
+  int i;
+  char *concatenated;
+  
+  i = 0;
+  concatenated = _strcat(s1, s2);
+  length = _strlen(s1) + _strlen(s2);
+  if (s1 == NULL && s2 == NULL)
+    {
+      return (NULL);
+    }
+  else
+    {
+      new_string = malloc(sizeof(char) * length +1);
+
+      if (new_string == NULL)
+	{
+	  return (NULL);
+	}
+      while (i <= length)
+	{
+	  new_string[i] = concatenated[i];
+		    i++;
+	}
+    }
+  return (new_string);
+  free(new_string);
+  
