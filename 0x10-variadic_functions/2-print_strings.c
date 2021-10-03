@@ -15,9 +15,10 @@ char *str;
 va_list ap;
 
 va_start(ap, n);
-str = va_arg(ap, char*);
+
 for (i = 0; i < n; i++)
 {
+str =  va_arg(strings, char *);
 if (str == NULL)
 {
 printf("%p", str);
