@@ -1,5 +1,5 @@
 #include <stdarg.h>
-#include "vardiac_functions.h"
+#include "variadic_functions.h"
 /**
  *print_numbers - prints numbers followed by a new line
  *@separator: string to be printed between numbers
@@ -10,9 +10,9 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-int i;
+unsigned int i;
 
-va list ap;
+va_list ap;
 
 va_start(ap, n);
 
