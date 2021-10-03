@@ -1,5 +1,5 @@
 #include <stdarg.h>
-#include "vardiac_functions"
+#include "vardiac_functions.h"
 /**
  *print_numbers - prints numbers followed by a new line
  *@separator: string to be printed between numbers
